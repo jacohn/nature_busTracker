@@ -17,13 +17,13 @@ const busStops = [
 // Add your own access token
 mapboxgl.accessToken =
   "pk.eyJ1IjoiamNvaG4iLCJhIjoiY2xnamthcm5kMTY4YzNmcG11eWVkeDd5ayJ9.GDELMcZ3-MK9WSjNOTr00g";
-// const styles=["mapbox://styles/mapbox/streets-v11","mapbox://styles/mapbox/streets-v11","mapbox://styles/jcohn/clgjnsyxa008c01rum7wailr9","mapbox://styles/jcohn/clgjnuzg8008d01ruri9f96uo","mapbox://styles/jcohn/clgjnw1hd000b01mbp0p1m8yv"]
+ const styles=["mapbox://styles/mapbox/streets-v11","mapbox://styles/mapbox/streets-v11","mapbox://styles/jcohn/clgjnsyxa008c01rum7wailr9","mapbox://styles/jcohn/clgjnuzg8008d01ruri9f96uo","mapbox://styles/jcohn/clgjnw1hd000b01mbp0p1m8yv"]
 let countStyle=0;
 // This is the map instance
 let map = new mapboxgl.Map({
   container: 'map',
   //this is the basic nature style I made in mapbox 
-  style: 'mapbox://styles/jcohn/clgjmvrg3000901oxkgpjy9ya',
+  style: styles[countStyle],
   center: [-71.104081, 42.365554],
   zoom: 14,
 });
@@ -40,14 +40,14 @@ function move() {
     if (counter >= busStops.length) {
       counter = 0;
     
-      /* code for changing map styles after every iteration.
-      if(countStyle>=styles.length)
+      // code for changing map styles after every iteration.
+      if(countStyle>styles.length)
       {
         countStyle=0
       } else {countStyle++;}
-      map[style]=styles[countStyle];
+      map.setStyle(styles[countStyle]);
 
-    */
+    
     }
     //moving bus 
     marker.setLngLat(busStops[counter]);

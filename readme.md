@@ -1,13 +1,15 @@
 #Bus Stops from MIT to Harvard
 ##about
-Animated map of bus stops based on MITx assignment. I changed style to a nature view.
+Animated map of bus stops based on MITx assignment. When the route restarts, the style changes. This is an experiment in considering how style affects your sense of space and direction.
 ##Requirements:
-1) must have mapbox api token. go to www.mapbox.com for details.
+1) must have mapbox api token. go to www.mapbox.com for details. 
 ##How to Run:
-To view, download and open index.html in your browser.
+To view:
+1) Replace <YOUR MAPBOX TOKEN> 
+2) Open index.html in your browser.
 ##Future Enhancements:
 1) use realtime bus stop data.
-2) include dynamic styling
+2) load styling earlier; include dynamic and random styling
 3) change marker style to a cambridge bus
 4) reverse directions
 5) Add more famous university directions (USC to UCLA, Cal to Stanford, etc)

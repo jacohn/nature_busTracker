@@ -1,9 +1,12 @@
-#Bus Stops from MIT to Harvard
-##about
+# Bus Stops from MIT to Harvard
+## about
 Animated map of bus stops based on MITx assignment. When the route restarts, the style changes. This is an experiment in considering how style affects your sense of space and direction.
-##Requirements:
+![nature themed map](./01.png)
+![neon pink map](./02.png)
+![dark mode](./03.png)
+## Requirements:
 1) must have mapbox api token. go to www.mapbox.com for details. 
-##How to Run:
+## How to Run:
 To view:
 1) Replace <YOUR MAPBOX TOKEN> 
 2) Open index.html in your browser.

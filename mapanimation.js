@@ -15,8 +15,7 @@ const busStops = [
 ];
 
 // Add your own access token
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiamNvaG4iLCJhIjoiY2xnamthcm5kMTY4YzNmcG11eWVkeDd5ayJ9.GDELMcZ3-MK9WSjNOTr00g";
+mapboxgl.accessToken ="<YOUR MAPBOX TOKEN>"
  const styles=["mapbox://styles/mapbox/streets-v11","mapbox://styles/mapbox/streets-v11","mapbox://styles/jcohn/clgjnsyxa008c01rum7wailr9","mapbox://styles/jcohn/clgjnuzg8008d01ruri9f96uo","mapbox://styles/jcohn/clgjnw1hd000b01mbp0p1m8yv"]
 let countStyle=0;
 // This is the map instance

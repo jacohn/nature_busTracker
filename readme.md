@@ -1,16 +1,23 @@
 # Bus Stops from MIT to Harvard
+
 ## About
+
 Animated map of bus stops based on MITx assignment. When the route restarts, the style changes. This is an experiment in considering how style affects your sense of space and direction.
 ![nature themed map](./images/nature.png)
 ![neon pink map](./images/hotPink.png)
 ![dark mode](./images/dark.png)
-## Requirements:
-1) must have mapbox api token. go to www.mapbox.com for details. 
-## How to Run:
+
+## Requirements
+
+1) must have mapbox api token. go to www.mapbox.com for details.
+
+## How to Run
+
 To view:
-1) Replace <YOUR MAPBOX TOKEN> 
+
+1) Replace <YOUR MAPBOX TOKEN>
 2) Open index.html in your browser.
-##Future Enhancements:
+## Future Enhancements:
 1) use realtime bus stop data.
 2) load styling earlier; include dynamic and random styling
 3) change marker style to a cambridge bus
@@ -26,4 +33,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
